@@ -1,2 +1,12 @@
 <h1>Updated Title</h1>
 <p>Description added</p>
+
+# Step 2: Update index.html
+
+# Check if the GitHub actor is the team leader
+# Run the following CLI command to update index.html
+sed -i '/<\/body>/i <p>Updated by Team Leader on '"$(date)"'</p>' index.html
+
+sed -i '/<\/body>/i <p>Updated by Member 1 on '"$(date)'"</p>' index.html
+
+sed -i '/<\/body>/i <p>Updated by Member 2 on '"$(date)'"</p>' index.html
